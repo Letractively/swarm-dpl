@@ -1,0 +1,8 @@
+#summary Swarm's proposed architecture
+
+=Architectural Overview=
+
+ * WebFramework
+ * CoreLanguage
+   * [Modules]
+ * [Storage]

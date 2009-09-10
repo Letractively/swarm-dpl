@@ -7,7 +7,7 @@
 {{{
 $ tar xzf scala-2.8.0.r17146-b20090219020925.tgz
 }}}
-  # Once you have a build, set the SCALA_HOME environment variable to point to your new installation.
+  # Once you have a build, set the SCALA_HOME environment variable to point to your new installation (you can add this to your .bashrc file)
 {{{
 $ export SCALA_HOME=.../scala-2.8.0.r17146-b20090219020925
 }}}
@@ -25,4 +25,8 @@ $ cd continuations
   # Then build it.
 {{{
 $ ANT_OPTS=-Xmx512m ant test
+}}}
+  # Now set your SCALA_C_DIR environment variable to point to the continuations directory, you can add this to your .bashrc file:
+{{{
+$ export SCALA_C_DIR=/Users/ian/local/share/scala/plugin-build/continuations
 }}}

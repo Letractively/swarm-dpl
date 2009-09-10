@@ -52,5 +52,5 @@ $ ./run.sh Listen 9997
 }}}
 Then, in another console window:
 {{{
-$ ./run.sh ForceRemoteRef 9998 start
+$ ./run.sh ExplicitMoveTo1 9998 start
 }}}

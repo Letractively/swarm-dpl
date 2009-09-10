@@ -1,0 +1,22 @@
+#summary How to get started with Swarm
+
+= Installing Scala 2.8 and Continuations Plugin =
+
+  # Get the latest snapshot of Scala 2.8 [http://www.scala-lang.org/archives/downloads/distrib/files/nightly/distributions/scala-2.8.0.latest.tgz here]
+  # Decompress it somewhere 
+{{{
+$ tar xzf scala-2.8.0.r17146-b20090219020925.tgz
+}}}
+  # Once you have a build, set the SCALA_HOME environment variable to point to your new installation.
+{{{
+$ export SCALA_HOME=.../scala-2.8.0.r17146-b20090219020925
+}}}
+  # Get the continuations plugin from their subversion repository:
+{{{
+$ svn co http://lampsvn.epfl.ch/svn-repos/scala/compiler-plugins/continuations/trunk continuations
+$ cd continuations
+}}}
+  # Then build it.
+{{{
+$ ANT_OPTS=-Xmx512m ant test
+}}}

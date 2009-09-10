@@ -39,6 +39,9 @@ $ ANT_OPTS=-Xmx512m ant test
 {{{
 $ export SCALA_C_DIR=/Users/ian/local/share/scala/plugin-build/continuations
 }}}
+
+= Get Swarm =
+
   # Ok, now you're ready to download Swarm using git:
 {{{
 $ git clone git://github.com/sanity/Swarm.git

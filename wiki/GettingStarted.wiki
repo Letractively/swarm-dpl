@@ -45,3 +45,12 @@ $ git clone git://github.com/sanity/Swarm.git
 $ cd Swarm
 $ ./build.sh
 }}}
+  # If there are no errors, run a demo:
+From the Swarm directory, in one console window:
+{{{
+$ ./run.sh Listen 9997
+}}}
+Then, in another console window:
+{{{
+$ ./run.sh ForceRemoteRef 9998 start
+}}}

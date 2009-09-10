@@ -11,6 +11,12 @@ $ tar xzf scala-2.8.0.r17146-b20090219020925.tgz
 {{{
 $ export SCALA_HOME=.../scala-2.8.0.r17146-b20090219020925
 }}}
+  # Add the bin/ directory in the scala folder to your path
+  # Verify that Scala 2.8 works:
+{{{
+$ scala -version
+Scala code runner version 2.8.0.r18431-b20090803020212 -- Copyright 2002-2009, LAMP/EPFL
+}}}
   # Get the continuations plugin from their subversion repository:
 {{{
 $ svn co http://lampsvn.epfl.ch/svn-repos/scala/compiler-plugins/continuations/trunk continuations

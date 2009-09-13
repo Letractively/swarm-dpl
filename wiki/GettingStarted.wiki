@@ -17,7 +17,10 @@ $ tar xzf scala-2.8.0.r17146-b20090219020925.tgz
 {{{
 $ export SCALA_HOME=.../scala-2.8.0.r17146-b20090219020925
 }}}
-  # Add the bin/ directory in the scala folder to your path
+  # Add the bin/ directory in the scala folder to your path (you can also add this to your .bashrc file)
+{{{
+$ export PATH=.../scala-2.8.0.r17146-b20090219020925/bin:$PATH
+}}}
   # Verify that Scala 2.8 works:
 {{{
 $ scala -version

@@ -2,9 +2,10 @@
 
 = Install tools =
   # Get and install the latest versions of:
-    * The Java Development Kit (at least Java 1.6)
-    * Subversion
-    * Git
+    * [http://java.sun.com/javase/downloads/index.jsp The Java Development Kit] (at least Java 1.6)
+    * [http://ant.apache.org/ Ant]
+    * [http://subversion.tigris.org/ Subversion]
+    * [http://git-scm.com/ Git]
 
 = Install Scala 2.8 snapshot =
 

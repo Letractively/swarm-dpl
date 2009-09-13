@@ -1,8 +1,11 @@
 #summary How to get started with Swarm
 
+= Note =
+These instructions assume you are using a Linux or Mac-like system.  If you are using Windows, we recommending using [http://www.cygwin.com/ Cygwin] which should allow you to follow these instructions more-or-less verbatim.
+
 = Install tools =
   # Get and install the latest versions of:
-    * [http://java.sun.com/javase/downloads/index.jsp The Java Development Kit] (at least Java 1.6)
+    * [http://java.sun.com/javase/downloads/index.jsp The Java Development Kit] (at least Java 1.5)
     * [http://ant.apache.org/ Ant]
     * [http://subversion.tigris.org/ Subversion]
     * [http://git-scm.com/ Git]

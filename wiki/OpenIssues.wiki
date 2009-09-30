@@ -12,3 +12,9 @@ Ian proposed examining "software transactional memory" as a way to prevent threa
 Swarm requires that every Swarm node be running the same codebase.
 
 I think this can be achieved by hooking into the JVM's classloader and making it retrieve packages on-demand as they are needed.  This concept is inspired by the [http://0install.net/ Zero Install] package management system.
+
+This would probably involve having some kind of public crypto key in the package name as a unique identifier - eg:
+
+{{{
+package swarm.bR781Z1h7.wombat.3.0
+}}}

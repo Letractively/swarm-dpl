@@ -7,3 +7,8 @@ Ian has posted a proposal for this to our mailing list, but it needs to be simul
 
 ==Concurrency==
 Ian proposed examining "software transactional memory" as a way to prevent threads from interfering with each-other in bad ways.  This spawned a discussion on the pros and cons of various approaches.  Read the thread [http://groups.google.com/group/swarm-discuss/browse_thread/thread/9919e42e539e2c0a here].
+
+==Universal code access==
+Swarm requires that every Swarm node be running the same codebase.
+
+I think this can be achieved by hooking into the JVM's classloader and making it retrieve packages on-demand as they are needed.  This concept is inspired by the [http://0install.net/ Zero Install] package management system.

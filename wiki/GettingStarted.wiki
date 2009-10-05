@@ -40,7 +40,7 @@ $ cd continuations
 }}}
   # Then build it.
 {{{
-$ ANT_OPTS=-Xmx512m ant test
+$ ANT_OPTS=-Xmx512m ant pack
 }}}
   # Now set your SCALA_C_DIR environment variable to point to the continuations directory, you can add this to your .bashrc file:
 {{{

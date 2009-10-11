@@ -14,8 +14,8 @@ Other advantages of Scala are:
    * Its fast (competitive with C, Haskell, and other compiled languages)
    * It already has a large set of libraries
    * It can run on almost any operating system
-* Its concise, comparable to Ruby, much better than Java
-* It supports functional programming constructs like closures
+ * Its concise, comparable to Ruby, much better than Java
+ * It supports functional programming constructs like closures
 
 == Did you know that there are other projects called "Swarm"? ==
 

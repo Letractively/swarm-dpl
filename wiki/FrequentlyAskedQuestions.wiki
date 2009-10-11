@@ -1,0 +1,9 @@
+<wiki:toc max_depth="1" />
+
+= General =
+
+== Did you know that there are other projects called "Swarm"? ==
+
+Yes we did.  We do not believe that 100% uniqueness is a prerequisite for a project name.  Remember that the word "swarm" has been in use for over a thousand years, it wasn't invented by any software project!
+
+If someone can suggest a better name that is unique, then we'll consider it, but for now we're happy with Swarm.

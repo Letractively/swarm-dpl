@@ -21,4 +21,4 @@ Other advantages of Scala are:
 
 Yes we did.  We do not believe that 100% uniqueness is a prerequisite for a project name.  Remember that the word "swarm" has been in use for over a thousand years, it wasn't invented by any software project!
 
-If someone can suggest a better name that is unique, then we'll consider it, but for now we're happy with Swarm.
+Our opinion (born of painful past experience) is that it is better to have a good non-unique name than a bad unique name.  Of course, if someone can suggest a good unique name, we'll give it serious consideration.

@@ -1,7 +1,9 @@
 #summary How to get started with Swarm
 
-= Note =
+= Notes =
 These instructions assume you are using a Linux or Mac-like system.  If you are using Windows, we recommending using [http://www.cygwin.com/ Cygwin] which should allow you to follow these instructions more-or-less verbatim.
+
+If you would prefer to build using Maven2, see GettingStartedUsingMaven2.
 
 = Install tools =
   # Get and install the latest versions of:

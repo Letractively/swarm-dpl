@@ -56,14 +56,15 @@ Extra options: Maven includes some standard command-line flags
 
 `mvn -q <goal>` for less output
 
-`mvn -o <goal>` to force Maven to use 3rd-party JAR files from your local repository
+`mvn -o <goal>` to force Maven to use 3rd-party JAR files from your local repository. This means Maven won't go online to check for updates. Safe to use if you already have the latest versions installed.
 
-`mvn -X <goal>` to show _extensive_ debug output about the build process. You almost never want to use this.
+`mvn -X <goal>` to show _extensive_ debug output about the build process. You almost never want to use this. If you do, redirect or pipe the output somewhere.
 
 = Running the Swarm Demos =
 
 Make sure you read GettingStarted first; in particular, make sure that you've tested it outside of Maven before trying to run the demos with Maven. Note that the demos aren't dependent on Maven; these instructions are just a convenience if you want to avoid using a shell script. In particular, using Maven you don't need to worry about setting up your classpath.
 
+== The Explicit Move To Demo ==
 To execute the listener, in one console, run
 
 {{{mvn -q exec:java -Dexec.mainClass="swarm.demos.Listen" -Dexec.args="9997"}}}

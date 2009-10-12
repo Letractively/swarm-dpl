@@ -7,7 +7,8 @@ This page describes how to get started building and running the Swarm codebase a
 
 = Details =
 
-Maven 2.0 is not required to build or use Swarm; see the GettingStarted page for instructions on how.
+Maven 2.0 is not _required_ to build or use Swarm; there is a build shell script available with the sources. See the GettingStarted page for instructions on how to build Swarm without Maven.
+
 
 == Building Swarm ==
 

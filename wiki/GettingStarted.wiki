@@ -3,69 +3,18 @@
 = Notes =
 These instructions assume you are using a Linux or Mac-like system.  If you are using Windows, we recommending using [http://www.cygwin.com/ Cygwin] which should allow you to follow these instructions more-or-less verbatim.
 
-If you would prefer to build using Maven2, see GettingStartedUsingMaven2.
 
-= Install tools =
-  # Get and install the latest versions of:
-    * [http://java.sun.com/javase/downloads/index.jsp The Java Development Kit] (at least Java 1.5)
-    * [http://ant.apache.org/ Ant]
-    * [http://subversion.tigris.org/ Subversion]
-    * [http://git-scm.com/ Git]
+= Install sbt launcher =
 
-= Install Scala 2.8 snapshot =
+http://code.google.com/p/simple-build-tool/wiki/Setup
 
-  # Get the latest snapshot of Scala 2.8 [http://www.scala-lang.org/archives/downloads/distrib/files/nightly/distributions/scala-2.8.0.latest.tgz here]
-  # Decompress it somewhere 
-{{{
-$ tar xzf scala-2.8.0.r17146-b20090219020925.tgz
-}}}
-  # Once you have a build, set the SCALA_HOME environment variable to point to your new installation (you can add this to your .bashrc file)
-{{{
-$ export SCALA_HOME=.../scala-2.8.0.r17146-b20090219020925
-}}}
-  # Add the bin/ directory in the scala folder to your path (you can also add this to your .bashrc file)
-{{{
-$ export PATH=.../scala-2.8.0.r17146-b20090219020925/bin:$PATH
-}}}
-  # Verify that Scala 2.8 works:
-{{{
-$ scala -version
-Scala code runner version 2.8.0.r18431-b20090803020212 -- Copyright 2002-2009, LAMP/EPFL
-}}}
+= Run the demo =
 
-= Install the Scala Continuations Plugin =
-
-  # Get the continuations plugin from their subversion repository:
-{{{
-$ svn co http://lampsvn.epfl.ch/svn-repos/scala/compiler-plugins/continuations/trunk continuations
-$ cd continuations
-}}}
-  # Then build it.
-{{{
-$ ANT_OPTS=-Xmx512m ant pack
-}}}
-  # Now set your SCALA_C_DIR environment variable to point to the continuations directory, you can add this to your .bashrc file:
-{{{
-$ export SCALA_C_DIR=/Users/ian/local/share/scala/plugin-build/continuations
-}}}
-
-= Get Swarm =
-
-  # Ok, now you're ready to download Swarm using git:
-{{{
-$ git clone git://github.com/sanity/Swarm.git
-}}}
-  # And build it:
-{{{
-$ cd Swarm
-$ ./build.sh
-}}}
-  # If there are no errors, run a demo:
 From the Swarm directory, in one console window:
 {{{
-$ ./run.sh Listen 9997
+sbt update package "demo Listen 9997"
 }}}
 Then, in another console window:
 {{{
-$ ./run.sh ExplicitMoveTo1 9998 start
+sbt "demo ExplicitMoveTo1 9998 start"
 }}}

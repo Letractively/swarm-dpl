@@ -1,20 +1,3 @@
 #summary How to get started with Swarm
 
-= Notes =
-These instructions assume you are using a Linux or Mac-like system.  If you are using Windows, we recommending using [http://www.cygwin.com/ Cygwin] which should allow you to follow these instructions more-or-less verbatim.
-
-
-= Install sbt launcher =
-
-http://code.google.com/p/simple-build-tool/wiki/Setup
-
-= Run the demo =
-
-From the Swarm directory, in one console window:
-{{{
-sbt update package "demo Listen 9997"
-}}}
-Then, in another console window:
-{{{
-sbt "demo ExplicitMoveTo1 9998 start"
-}}}
+Please see [our Github page](https://github.com/sanity/Swarm/blob/master/README.rst) for instructions about getting started.
